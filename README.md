@@ -14,4 +14,31 @@ Some ideas for obtaining a :gift: if you are the first that:
 User name | NIA | Travis-CI|Score
 ----------|-----|----------|-----
 [UNIZAR-30246-WebEngineering](https://github.com/UNIZAR-30246-WebEngineering/lab1-git-race) |30246 | [![Build Status](https://github.com/UNIZAR-30246-WebEngineering/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/UNIZAR-30246-WebEngineering/lab1-git-race/actions/workflows/ci.yml)
+[Tomás Pelayo Benedet](https://github.com/Tomenos18/lab1-git-race) |779691 | [![Build Status](https://github.com/Tomenos18/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Tomenos18/lab1-git-race/actions/workflows/ci.yml)
 your name | your nia | your Travis-ci status
+
+## How to deploy with Dockerfile
+
+It's very simple, just follow the following steps:
+
+1. Run the script called "create_image.sh" from the "scripts" folder. This if going to create the image that we need:
+
+```
+$ scripts/create_image.sh
+```
+
+2. If all went correctly, a image has been created (Image ID and Size may be different):
+
+```
+$ docker images
+REPOSITORY      TAG       IMAGE ID       CREATED          SIZE
+lab1-git-race   latest    6de6b5e29bda   1 minutes ago   709MB
+```
+
+3. Finally, run the following command
+```
+$ docker run -p 5000:8080 lab1-git-race
+```
+
+The previous command is going to link the port 8080 of the container with the port 8080 of the host.
+This can be changed for example `8080:5000` to link the port 8080 of the conatiner with the port 5000 of the host.
