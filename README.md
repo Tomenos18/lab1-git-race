@@ -35,10 +35,7 @@ REPOSITORY      TAG       IMAGE ID       CREATED          SIZE
 lab1-git-race   latest    6de6b5e29bda   1 minutes ago   709MB
 ```
 
-3. Finally, run the following command
+3. Finally, the following command run the container and is going to link the port 8080 of the container with the port 8080 of the host. This can be changed for example `8080:5000` to link the port 8080 of the container with the port 5000 of the host.
 ```
-$ docker run -p 5000:8080 lab1-git-race
+$ docker run -p 8080:8080 lab1-git-race
 ```
-
-The previous command is going to link the port 8080 of the container with the port 8080 of the host.
-This can be changed for example `8080:5000` to link the port 8080 of the conatiner with the port 5000 of the host.
