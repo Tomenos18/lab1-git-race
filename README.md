@@ -18,4 +18,8 @@ User name | NIA | CI |Score
 [Jaime Conchello](https://github.com/jaimecb/lab1-git-race) | 776012 | [![Build Status](https://github.com/jaimecb/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/jaimecb/lab1-git-race/actions/workflows/ci.yml)
 [Mateo Vallejo Domínguez](https://github.com/CursedR3N/lab1-git-race) |780029 | [![Build Status](https://github.com/CursedR3N/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/CursedR3N/lab1-git-race/actions/workflows/ci.yml)
 [Alejandro Artal](https://github.com/Alejandro-Artal/lab1-git-race) | 775929 | [![Build Status](https://github.com/Alejandro-Artal/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Alejandro-Artal/lab1-git-race/actions/workflows/ci.yml)
+[Rubén Subías](https://github.com/Gelpa99) |759406 | [![Build Status](https://github.com/Gelpa99/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Gelpa99/lab1-git-race/actions/workflows/ci.yml)
+[Jorge Laguna](https://github.com/topopelon/lab1-git-race) | 735550 | [![Build Status](https://github.com/topopelon/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/topopelon/lab1-git-race/actions/workflows/ci.yml) | half :gift:
+[Carlos Navarro Gascón](https://github.com/Lulay7/lab1-git-race) |780180 | [![Build Status](https://github.com/Lulay7/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Lulay7/lab1-git-race/actions/workflows/ci.yml)
 [Tomás Pelayo Benedet](https://github.com/Tomenos18/lab1-git-race) |779691 | [![Build Status](https://github.com/Tomenos18/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Tomenos18/lab1-git-race/actions/workflows/ci.yml)
+

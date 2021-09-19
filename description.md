@@ -5,6 +5,10 @@
 The file `src/main/controller/HelloController.kts` contains the implementation of the controller of this web application following the MVC pattern.
 The handler function `welcome()` serves the view `src/main/resources/templates/welcome.html`.
 
+## Error
+
+The file `error.html` is a custom error page which is under `src/main/resources/templates/` for Spring MVC to detecting it automatically. The model variable `error` is passed to the view `error.html` to know what kind of error ocurred.
+
 ## Gradle Configuration
 
 Gradle is a tool for automating building.  
